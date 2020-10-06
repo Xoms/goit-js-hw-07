@@ -1,0 +1,38 @@
+img {
+    display: block;
+    width: 100%
+}
+
+
+
+.task {
+    padding: 50px;
+    border-bottom: 1px solid grey;
+}
+
+
+/*task 3 gallery*/
+#gallery {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+}
+
+#gallery li {
+    list-style-type: none;
+    margin-right: 30px;
+    width: calc((100% - 2*30px)/3);
+}
+
+/*task4 validation*/
+#validation-input {
+    border: 3px solid #bdbdbd;
+  }
+  
+  #validation-input.valid {
+    border-color: #4caf50;
+  }
+  
+  #validation-input.invalid {
+    border-color: #f44336;
+  }
