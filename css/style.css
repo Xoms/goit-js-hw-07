@@ -2,8 +2,41 @@ img {
     display: block;
     width: 100%
 }
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 800;
+}
 
+.nav {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  list-style-type: none;
+  background-color: #fff;
+  width: 1200px;
+  height: 50px;
+  margin: 0;
+  padding-top: 25px;
 
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__item:not{
+  padding: 10px 0;
+}
+.nav__item:not(:last-child) {
+  margin-right: 30px;
+} 
+
+.container {
+  width: 1200px;
+  padding: auto 15;
+  margin: auto;
+}
 
 .task {
     padding: 50px;

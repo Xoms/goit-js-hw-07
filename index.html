@@ -7,7 +7,36 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="task">
+  <head>
+    <nav class="container">
+      <ul class="nav">
+        <li class="nav__item">
+          <a href="#task1">Task1</a></li>
+        <li class="nav__item">
+          <a href="#task2">Task2</a></li>
+        <li class="nav__item">
+          <a href="#task3">Task3</a>
+        </li>
+        <li class="nav__item">
+          <a href="#task4">Task4</a>
+        </li>
+        <li class="nav__item">
+          <a href="#task5">Task5</a>
+        </li>
+        <li class="nav__item">
+          <a href="#task6">Task6</a>
+        </li>
+        <li class="nav__item">
+          <a href="#task7">Task7</a>
+        </li>
+        <li class="nav__item">
+          <a href="#task8">Task8</a>
+        </li>
+      </ul>
+    </nav>
+  </head>
+  <main class="container">
+    <section class="task" id="task1">
       <h2>Task1</h2>
       <ul id="categories">
         <li class="item">
@@ -42,19 +71,19 @@
       </ul>
     </section>
 
-    <section class="task">
+    <section class="task" id="task2">
       <h2>Task2</h2>
       <ul id="ingredients"></ul>
     </section>
     
 
-    <section class="task">
+    <section class="task" id="task3">
       <h2>Task3</h2>
       <ul id="gallery"></ul>
     </section>
-    <script src="js/main.js" type="module"></script>
 
-    <section class="task">
+
+    <section class="task" id="task4">
       <h2>Task4</h2>
 
       <div id="counter">
@@ -65,13 +94,13 @@
     </section>
 
 
-    <section class="task">
+    <section class="task" id="task5">
       <h2>Task5</h2>
       <input type="text" placeholder="Ваше имя?" id="name-input" />
         <h3>Привет, <span id="name-output">незнакомец</span>!</h3>
     </section>
 
-    <section class="task6">
+    <section class="task" id="task6">
       <h2>Task6</h2>
       <input
         type="text"
@@ -81,7 +110,7 @@
       />
     </section>
 
-    <section class="task">
+    <section class="task" id="task7">
       <h2>Task7</h2>
 
       <input id="font-size-control" type="range" min = "8" max = "30"/>
@@ -90,7 +119,7 @@
 
     </section>
 
-    <section class="task">
+    <section class="task" id="task8">
       <h2>Task8</h2>
       <div id="controls">
         <input type="number" min="0" max="100" step="1" />
@@ -100,5 +129,8 @@
       
       <div id="boxes"></div>
     </section>
+  </main>
+
+  <script src="js/main.js" type="module"></script>
 </body>
 </html>
